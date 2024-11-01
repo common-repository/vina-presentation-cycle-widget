@@ -1,0 +1,77 @@
+/*
+Plugin Name: Vina Presentation Cycle Widget
+Plugin URI: http://VinaThemes.biz
+Description: A great WordPress Slider to display featured posts in Presentation Cycle.
+Version: 1.0
+Author: VinaThemes
+Author URI: http://VinaThemes.biz
+Author email: mr_hiennc@yahoo.com
+Demo URI: http://VinaDemo.biz
+Forum URI: http://VinaForum.biz
+License: GPLv3+
+*/
+
+.vina-presentation-container.pc_container {
+    padding: 15px 1px 47px 1px;
+    background: #000;
+    margin: 0px auto;
+	border-radius: 10px;
+}
+.vina-presentation-container.pc_container .pc_item {
+    margin-top: 15px;
+    margin-left: 1px;
+}
+.vina-presentation-container.pc_container .pc_bar_container {
+    position: absolute;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+    overflow:visible;
+}
+.vina-presentation-container .pc_bar_container_underflow {
+    width: 90000px;
+    overflow: visible;
+}
+.vina-presentation-container .pc_bar_container_overflow {
+    overflow: hidden;
+    position: absolute;
+    color: white;
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
+}
+.vina-presentation-container .left, 
+.vina-presentation-container .center, 
+.vina-presentation-container .right {
+    background-position: left;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-size: 1px;
+    float: left;
+}
+.vina-presentation-container .bar {
+    background-position: left;
+    overflow: hidden;
+    font-size: 1px;
+    float: left;
+}
+.vina-presentation-container .pc_item .desc {
+    position: absolute;
+    padding: 10px;
+    line-height: 1.8em;
+    right: 0px;
+    background-image: url(../images/slide_fade.png);
+	color: #FFF;
+}
+.vina-presentation-container .pc_item .desc h3 {
+    color: #DE8F26;  
+	margin: 0px;  
+}
+.vina-presentation-container.pc_container img {
+	border-radius: 0px !important;
+	box-shadow: none !important;
+}
+div#tcvn-copyright {
+	font-size: 12px;
+    height: 0;
+    overflow: hidden;
+}
